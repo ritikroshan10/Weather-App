@@ -24,10 +24,15 @@ A simple React-based Weather App that fetches real-time weather information usin
 ## 📁 Project Structure
 
 weather-app/
+
 ├── public/
+
 ├── src/
+
 │ └── App.jsx
+
 ├── package.json
+
 └── README.md
 
 ## 💡 How to Use
@@ -36,6 +41,6 @@ weather-app/
  3. Install dependencies (npm install)
  4. Start the development server (npm start)
 
- 
+
 
 
