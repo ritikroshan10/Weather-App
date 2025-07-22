@@ -1,0 +1,19 @@
+step-1  basic design in which h1 tag and form and a div to show result
+
+step-2 create a state  let [city, setCity] = useState('') and input box value pass city and setCity will pass the value to the function
+
+step-3 search button ...create a function get data then only fetch the data form api
+
+step-4  create another state let [weatherDetails, setweatherDetails] = useState() intial is usestate empty to show the result in the result box
+
+step-4 in result box do some modification set a condition if weatherDetails variable is !==undefined ,
+then show the result otherwise show no data found
+
+step-5 in gerData function from api we check that when we enter city those have not exit then give cod=404 so set the condition if city not exit 
+then pass undefied to the setweatherDetails function otherwise show data
+
+step-6 now some time we know response is given to take some time so we create a loding gfg to show 
+
+so we create a another satate  and a image of loading and initial hidden 
+when getData function call  setIsloading function true and after output setIsloading is false
+
